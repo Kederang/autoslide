@@ -7,44 +7,12 @@
     <title>GHH/WDD Job-Seeker Services Carousel</title>
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
         <style>
         * {box-sizing: border-box;}
         body {font-family: "Roboto Slab", serif;}
         .mySlides {display: none;}
         img {vertical-align: middle;}
-
-        /* Slideshow container */
-        .slideshow-container {
-        max-width: 1000px;
-        height: 500px;
-        position: relative;
-        margin: 0 auto;
-        }
-        .carousel__image {
-        width: 100%; 
-        height: 100%;
-        object-fit: scale-down;
-        }
-        
-
-        /* Caption text */
-        .text {
-        color: #f2f2f2;
-        font-size: 15px;
-        position: absolute;
-        bottom: 2px;
-        width: 100%;
-        text-align: center;
-        }
-        .text_2 {
-        color: #000000;
-        font-size: 15px;
-        position: absolute;
-        top: 2px;
-        width: 100%;
-        text-align: center;
-        background-color: azure;
-        }
 
         /* Number text (1/4 etc) */
         .numbertext {
@@ -89,95 +57,91 @@
         </style>
 </head>
 <body>
-
-
-
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-    <li>
-    <div class="numbertext">1 / 4</div>
-    <img class="carousel__image" src="img/GHH_1.jpg" style="width:100%">
-    <div class="text_2"><text><h1>Resources for Helping Job-Seekers - Find and Secure Employment</h1></text></div>
-    <div class="text"> 
-        <text><h2>
-            <a href ="https://career-pathways-committee.bullet.site/department-of-human-resources-and-development-dhrd-career-paths-and-resources/">Department of Human Resources & Development - Career Resources</a><br>
-            <a href = "https://career-pathways-committee.bullet.site/department-of-labor-and-industrial-relations-dlir-internships-apprenticeships-and-job-resources/">Department of Labor & Industrial Relations - Internships, Apprenticeships, & Education</a>
-        </h2></text>
-    </div>
-    </li>
-</div>
-
-<div class="mySlides fade">
-    <li>
-        <div class="numbertext">2 / 4</div>
-        <img class="carousel__image" src="img/GHH_2.jpg" style="width:100%">
-        <div class="text_2"><text><h2>GHH Resources - Connecting the Justice-Involved with Employment</h2></text></div>
-                <div class="text">
-                    <text><h2>
-                        <a href="https://career-pathways-committee.bullet.site/ghh-executive-committee-specific-support-services/">GHH Executive Committee & Support Services</a><br>
-                        <a href ="https://career-pathways-committee.bullet.site/rack-card-compiled-support-services/">RACK Card Support Services</a><br>
-                        <a href="https://career-pathways-committee.bullet.site/the-american-job-centers-hawaii-and-the-federal-bonding-program/">The American Job Center Resources & Federal Bond Insurance Program</a><br>
-                    </h2></text>
+    <div class="caorusel">
+        <div class = "carousel__track-container">
+            <ul class = "carousel__track">
+                <div class="mySlides fade">
+                    <li>
+                    <div class="numbertext">1 / 4</div>
+                    <img class="carousel__image" src="img/GHH_1.jpg" style="width:100%">
+                    <div class="text_2"><text><h1>Resources for Helping Job-Seekers - Find and Secure Employment</h1></text></div>
+                    <div class="text"> 
+                        <text><h2>
+                            <a href ="https://career-pathways-committee-bullet.pages.dev/#:~:text=Resources%20for%20Job%2DSeekers%20(1st%20Slide)" target="_blank">Resources for Job-Seekers</a><br>
+                        </h2></text>
+                    </div>
+                    </li>
                 </div>
-    </li>
-</div>
 
-<div class="mySlides fade">
-    <li>
-        <div class="numbertext">3 / 4</div>
-        <img class="carousel__image" src="img/GHH_3.png" style="width:100%">
-        <div class="text_2"><text><h1>Stories Justice-Involved Work Re-entry</h1></text></div>
-            <div class="text">
-                <text><h2><a href ="https://career-pathways-committee.bullet.site/stories-of-justice-involved-work-re-entry/">Stories of Justice-Involved Work Re-Entry</a>
-                </h2></text>
+                <div class="mySlides fade">
+                    <li>
+                        <div class="numbertext">2 / 4</div>
+                        <img class="carousel__image" src="img/GHH_2.jpg" style="width:100%">
+                        <div class="text_2"><text><h2>GHH Resources - Connecting the Justice-Involved with Employment</h2></text></div>
+                        <div class="text">
+                            <text><h2>
+                                <a href="https://career-pathways-committee-bullet.pages.dev/#:~:text=GHH%20Resources%20(2nd%20Slide)" target="_blank">GHH Executive Committee Resources</a><br>
+                                
+                                <!-- <a href ="https://neighborly-shield-9a9.notion.site/RACK-Card-Compiled-Support-Services-a606ab6a394d4374af3a59c7c3efd483?pvs=4">RACK Card Support Services</a><br>
+                                <a href="https://neighborly-shield-9a9.notion.site/The-American-Job-Centers-Hawai-i-The-Federal-Bonding-Program-398700a695c24b618b15b7ec4b296c0b?pvs=4">The American Job Center Resources & Federal Bond Insurance Program</a><br>-->
+                            </h2></text>
+                        </div>
+                    </li>
+                </div>
+
+                <div class="mySlides fade">
+                    <li>
+                        <div class="numbertext">3 / 4</div>
+                        <img class="carousel__image" src="img/GHH_3.png" style="width:100%">
+                        <div class="text_2"><text><h1>Resources for Employers to Connect With or Assist Job-Seekers</h1></text></div>
+                        <div class="text">
+                            <text><h2>
+                                <a href ="https://career-pathways-committee-bullet.pages.dev/#:~:text=Resources%20For%20Employers%20%20(3nd%20Slide)" target="_blank">Department of Labor & Industrial Relations - Employer Resources</a>
+                            </h2></text>
+                        </div>
+                    </li>
+                </div>
+
+                <div class="mySlides fade">
+                    <li>
+                        <div class="numbertext">4 / 4</div>
+                        <img class="carousel__image" src="img/GHH_4.png" style="width:100%">
+                        <div class="text_2"><text><h1>Stories Justice-Involved Work Re-entry</h1></text></div>
+                        <div class="text"><text><h2><a href ="https://career-pathways-committee-bullet.pages.dev/#:~:text=Stories%20About%20Justice%2DInvolved%20Re%2DEntry%20(4th%20Slide)" target="_blank">Stories of Justice-Involved Work Re-Entry</a></h2></text></div>
+                    </li>
+                </div>
+            </ul>
+
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span>
             </div>
+
         </div>
-    </li>
-</div>
+    </div>
+        <script>
+            let slideIndex = 0;
+            showSlides();
 
-<div class="mySlides fade">
-    <li>
-        <div class="numbertext">4 / 4</div>
-        <img class="carousel__image" src="img/GHH_4.png" style="width:100%">
-        <div class="text_2"><text><h1>DLIR Resources for Employers to Connect With or Assist Job-Seekers</h1></text></div>
-            <div class="text">
-                <text><h2>
-                    <a href ="https://career-pathways-committee.bullet.site/services-and-information-for-employers-training-business-support-hiring-and-community-info/">Department of Labor & Industrial Relations - Employer Resources</a>
-                </h2></text>
-            </div>
-    </li>
-</div>
-<br>
+            function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 5000); // Change image every 5 seconds
+            }
+        </script>
 
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span>
-</div>
-
-<script>
-    let slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    let dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 5000); // Change image every 2 seconds
-    }
-</script>
-
-</body>
+    </body>
 </html> 
